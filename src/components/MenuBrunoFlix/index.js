@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/img/brunoflix.png';
+import Logo from '../../assets/img/crackneto.png';
 import './MenuBrunoFlix.css';
 import Button from '../Button';
 import { Link } from 'react-router-dom'
