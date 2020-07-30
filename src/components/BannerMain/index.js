@@ -16,11 +16,8 @@ export default function BannerMain({
   url,
 }) {
   const youTubeID = getYouTubeId(url);
-  console.log("url "+ url);
-  console.log("youtube id" +youTubeID);
   //const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
   const bgUrl = 'https://sportbuzz.uol.com.br/media/_versions/neto_aAAmz4v_widelg.jpg'
-  console.log(bgUrl);
 
   return (
     <BannerMainContainer backgroundImage={bgUrl}>
